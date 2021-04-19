@@ -17,6 +17,16 @@ body {
 .btn-index {
   width: fit-content; }
 
+.botones-index {
+  width: 100vw;
+  display: flex;
+  flex-flow: row-reverse;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  position: absolute;
+  bottom: 150px; }
+
 .main-tradicional {
   background-color: bisque; }
 
