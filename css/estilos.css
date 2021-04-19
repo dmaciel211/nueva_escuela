@@ -73,3 +73,8 @@ body {
   justify-content: center;
   justify-items: center;
   background-color: whitesmoke; }
+
+.video-imagen {
+  display: flex;
+  align-content: center;
+  justify-content: center; }
