@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+body {
+  font-family: 'Roboto Mono', monospace; }
+
+.titulo-index {
+  padding-top: 10px;
+  color: white; }
+
+.main-index {
+  background-image: url("/img/matrix.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: black;
+  height: 100vh;
+  width: 100vw; }
+
+.btn-index {
+  width: fit-content; }
+
+.main-tradicional {
+  background-color: bisque; }
+
+.video-tradicional {
+  display: flex;
+  flex-flow: column nowrap; }
+  .video-tradicional iframe {
+    padding: 10px; }
+
+.cita-freire {
+  padding-top: 30px;
+  padding-right: 40px;
+  margin-left: 30px;
+  display: inline-block; }
+
+.main-nueva {
+  background-image: url(/img/medios.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 93vh; }
+  .main-nueva__row1 {
+    padding-top: 100px; }
+
+.col-1-btn {
+  display: flex;
+  justify-content: center; }
+  .col-1-btn .btn {
+    height: fit-content; }
+
+.col-2-btn {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: center; }
+  .col-2-btn .btn {
+    height: fit-content; }
+
+.main-estudiantes {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  justify-items: center;
+  background-color: whitesmoke; }
